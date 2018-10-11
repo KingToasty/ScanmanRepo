@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Scanman.LoginHome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Scanman"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <StackPanel VerticalAlignment="Center">
+                <Button x:Name="StudentLogin"  Style="{StaticResource ButtonRevealStyle}" FontSize="24px" Padding="10" Margin="10,100,10,100" Content="Student Login" MaxWidth="250" Click="StudentLogin_Click" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center">
+                <Button x:Name="AdminLogin" Style="{StaticResource ButtonRevealStyle}" FontSize="24px" Padding="10" Margin="10,100,10,100" Content="Administrator Login" MaxWidth="250" Click="AdminLogin_Click" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
